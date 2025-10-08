@@ -37,6 +37,7 @@ Função para **somar dois números**.
 > Este mesmo antes de ser definida, diz que a função pode ser "guardada" no código
 
 ```
+** Somas Dois Numeros
 function somarnum(a, b) {
   return a + b;
 }
@@ -49,19 +50,21 @@ console.log(somarnum(22, 15)); // 37
 - Só pode ser usada depois de ser criada.
 - Permite criar funções dentro de variáveis e usar quando quiser.
 ```
-const soma = function(a, b) {
-  return a + b;
+** Subtrair Dois Números
+const subtrair = function(a, b) {
+  return a - b;
 }
 
-console.log(soma(3, 4)); // 7
+console.log(subtrair(10, 4)); // 6
 ```
 ### 3. Arrow Function
 - Sintaxe curta e fácil de escrever.
 - Ótima para Funções curtas, ou até mesmo callbacks
 ```
-const multiplicar = (a, b) => a * b;
+** Calcular o Quadrado Do Numero Colocado
+const quadrado = (numero) => numero * numero;
 
-console.log(multiplicar(4, 6)); // 24
+console.log(quadrado(5)); // 25
 ```
 
 ## Final
