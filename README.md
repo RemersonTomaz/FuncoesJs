@@ -55,7 +55,7 @@ const soma = function(a, b) {
 
 console.log(soma(3, 4)); // 7
 ```
-### 2. Arrow Function
+### 3. Arrow Function
 - Sintaxe curta e fácil de escrever.
 - Ótima para Funções curtas, ou até mesmo callbacks
 ```
@@ -63,3 +63,6 @@ const multiplicar = (a, b) => a * b;
 
 console.log(multiplicar(4, 6)); // 24
 ```
+
+## Final
+> Em resumo: **funções permitem que você escreva código uma vez e use várias vezes**, tornando seu programa mais limpo e eficiente.
