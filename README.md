@@ -5,17 +5,17 @@
 Elas servem pra deixar o código mais organizado, evitar repetir comandos e facilitar a manutenção do programa.
 
 De forma bem simples, uma função pode:
-- **Receber valores** (que chamamos de parâmetros);
-- **Fazer alguma ação** com esses valores;
-- E depois **devolver um resultado** (chamado de retorno).
+- Receber valores (que chamamos de parâmetros);
+- Fazer alguma ação com esses valores;
+- E depois devolver um resultado (chamado de retorno).
 
 # Como Criar Funções em JavaScript
 
->Funções são **blocos de código que fazem uma tarefa específica**.  
-Elas ajudam a **organizar o código**, **evitar repetir coisas** e **deixar o programa mais fácil de entender**.
+>Funções são blocos de código que fazem uma tarefa específica.  
+Elas ajudam a organizar o código, evitar repetir coisas e deixar o programa mais fácil de entender.
 1. Escreva `function` seguido do nome da função.  
 2. Entre `{ }` coloque o que a função vai fazer.  
-3. Pode receber **valores** (parâmetros) e **devolver um resultado** com `return`.
+3. Pode receber valores (parâmetros) e devolver um resultado com `return`.
 Exemplo:
 ```
 function dobro(num) {
@@ -32,12 +32,11 @@ console.log(dobro(5)); // 10
 - Function Expression
 - Arrow Function
 ### 1. Function Declaration
-Função para **somar dois números**.
--Pode ser usada em qualquer lugar do código, mesmo antes de ser definida.
+-Pode ser usada em qualquer lugar do código, mesmo antes dela ser definida.
 > Este mesmo antes de ser definida, diz que a função pode ser "guardada" no código
 
 ```
-** Somas Dois Numeros
+** Somar Dois Numeros
 function somarnum(a, b) {
   return a + b;
 }
@@ -46,9 +45,9 @@ console.log(somarnum(22, 15)); // 37
 ```
 
 ### 2. Function Expression
-- Função guardada em uma variável.
-- Só pode ser usada depois de ser criada.
-- Permite criar funções dentro de variáveis e usar quando quiser.
+- Função é guardada em uma variável.
+- Só pode ser utilizada depois de ser criada.
+- Permite criar funções dentro de variáveis e usar quando for necessário.
 ```
 ** Subtrair Dois Números
 const subtrair = function(a, b) {
@@ -59,7 +58,7 @@ console.log(subtrair(10, 4)); // 6
 ```
 ### 3. Arrow Function
 - Sintaxe curta e fácil de escrever.
-- Ótima para Funções curtas, ou até mesmo callbacks
+- Ótima para Funções curtas ou até mesmo callbacks
 ```
 ** Calcular o Quadrado Do Numero Colocado
 const quadrado = (numero) => numero * numero;
