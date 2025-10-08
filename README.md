@@ -33,8 +33,8 @@ console.log(dobro(5)); // 10
 - Arrow Function
 ### 1. Function Declaration
 Função para **somar dois números**.
--Vantagem:
--Pode ser usada em qualquer lugar do código, mesmo antes de ser definida.
+- Vantagem:
+- Pode ser usada em qualquer lugar do código, mesmo antes de ser definida.
 
 ```
 function somarnum(a, b) {
