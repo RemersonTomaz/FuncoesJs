@@ -1,3 +1,1 @@
-# Aulas
-Tarefinhas
---Ohana is saying Family, and family is, don't leave our homies alone
+# atividade : Crie um tutorial que explique como definir e criar funções em Javascript utilizando os formatos: declaration, expression e arrow.
