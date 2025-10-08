@@ -1,7 +1,7 @@
 # Atividade
 #### Como Funcionam os: Function Declaration, Function Expression, Arrow Function.
 ## O Que São Funções e Como Funcionam?
->As **funções** em JavaScript são partes do código que a gente cria para **executar alguma tarefa específica**.  
+>As **funções** em JavaScript são partes do código que criamos para **executar alguma tarefa específica**.  
 Elas servem pra **deixar o código mais organizado**, **evitar repetir comandos** e **facilitar a manutenção** do programa.
 
 De forma bem simples, uma função pode:
