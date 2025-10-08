@@ -8,7 +8,7 @@ De forma bem simples, uma função pode:
 - **Receber valores** (que chamamos de *parâmetros*);
 - **Fazer alguma ação** com esses valores;
 - E depois **devolver um resultado** (chamado de *retorno*).
-### Funções e seus tipos
+## Funções e seus tipos:
 - Function Declaration
 - Function Expression
 - Arrow Function
