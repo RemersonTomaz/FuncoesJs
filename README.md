@@ -36,7 +36,7 @@ console.log(dobro(5)); // 10
 > Este mesmo antes de ser definida, diz que a função pode ser "guardada" no código
 
 ```
-** Somar Dois Numeros
+// Somar Dois Numeros
 function somarnum(a, b) {
   return a + b;
 }
@@ -49,7 +49,7 @@ console.log(somarnum(22, 15)); // 37
 - Só pode ser utilizada depois de ser criada.
 - Permite criar funções dentro de variáveis e usar quando for necessário.
 ```
-** Subtrair Dois Números
+// Subtrair Dois Números
 const subtrair = function(a, b) {
   return a - b;
 }
@@ -60,7 +60,7 @@ console.log(subtrair(10, 4)); // 6
 - Sintaxe curta e fácil de escrever.
 - Ótima para Funções curtas ou até mesmo callbacks
 ```
-** Calcular o Quadrado Do Numero Colocado
+// Calcular o Quadrado Do Numero Colocado
 const quadrado = (numero) => numero * numero;
 
 console.log(quadrado(5)); // 25
