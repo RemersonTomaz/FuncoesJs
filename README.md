@@ -16,6 +16,13 @@ Elas ajudam a **organizar o código**, **evitar repetir coisas** e **deixar o pr
 1. Escreva `function` seguido do nome da função.  
 2. Entre `{ }` coloque o que a função vai fazer.  
 3. Pode receber **valores** (parâmetros) e **devolver um resultado** com `return`.
+Exemplo:
+function dobro(num) {
+  return num * 2;
+}
+
+// Chamando a função aqui:
+console.log(dobro(5)); // 10
 
 ---
 
