@@ -1,4 +1,4 @@
-#Atividade
-##Function Declaration
-##Function Expression
-##Arrow Function
+# Atividade
+## Function Declaration
+## Function Expression
+## Arrow Function
