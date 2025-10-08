@@ -12,4 +12,4 @@ De forma bem simples, uma função pode:
 - Function Declaration
 - Function Expression
 - Arrow Function
-### 1.Function Declaration
+### 1. Function Declaration
