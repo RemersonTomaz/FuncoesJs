@@ -13,6 +13,9 @@ De forma bem simples, uma função pode:
 
 >Funções são **blocos de código que fazem uma tarefa específica**.  
 Elas ajudam a **organizar o código**, **evitar repetir coisas** e **deixar o programa mais fácil de entender**.
+1. Escreva `function` seguido do nome da função.  
+2. Entre `{ }` coloque o que a função vai fazer.  
+3. Pode receber **valores** (parâmetros) e **devolver um resultado** com `return`.
 
 ---
 
