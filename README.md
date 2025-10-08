@@ -1,3 +1,4 @@
 # Atividade
-### Resumo 
-#### Como Funcionam as: Function Declaration, Function Expression, Arrow Function
+#### Como Funcionam os: Function Declaration, Function Expression, Arrow Function.
+> ola
+
