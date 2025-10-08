@@ -8,6 +8,14 @@ De forma bem simples, uma função pode:
 - **Receber valores** (que chamamos de *parâmetros*);
 - **Fazer alguma ação** com esses valores;
 - E depois **devolver um resultado** (chamado de *retorno*).
+
+# Como Criar Funções em JavaScript
+
+>Funções são **blocos de código que fazem uma tarefa específica**.  
+Elas ajudam a **organizar o código**, **evitar repetir coisas** e **deixar o programa mais fácil de entender**.
+
+---
+
 ## Funções e seus tipos:
 - Function Declaration
 - Function Expression
