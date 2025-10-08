@@ -33,8 +33,8 @@ console.log(dobro(5)); // 10
 - Arrow Function
 ### 1. Function Declaration
 Função para **somar dois números**.
-- Vantagem:
-- Pode ser usada em qualquer lugar do código, mesmo antes de ser definida.
+-Pode ser usada em qualquer lugar do código, mesmo antes de ser definida.
+> Este mesmo antes de ser definida, diz que a função pode ser "guardada" no código
 
 ```
 function somarnum(a, b) {
@@ -42,4 +42,24 @@ function somarnum(a, b) {
 }
 
 console.log(somarnum(22, 15)); // 37
+```
+
+### 2. Function Expression
+- Função guardada em uma variável.
+- Só pode ser usada depois de ser criada.
+- Permite criar funções dentro de variáveis e usar quando quiser.
+```
+const soma = function(a, b) {
+  return a + b;
+}
+
+console.log(soma(3, 4)); // 7
+```
+### 2. Arrow Function
+- Sintaxe curta e fácil de escrever.
+- Ótima para Funções curtas, ou até mesmo callbacks
+```
+const multiplicar = (a, b) => a * b;
+
+console.log(multiplicar(4, 6)); // 24
 ```
