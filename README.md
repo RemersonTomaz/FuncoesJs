@@ -24,7 +24,7 @@ function dobro(num) {
 
 // Chamando a função aqui:
 console.log(dobro(5)); // 10
-// 5, porque a função recebe o numero 5, e 10 porque é a saida do console
+// O Número 5 é Dado porque a função recebe o numero 5, que foi escrita pelo usuário, e 10 porque é a saida do console
 ```
 
 ## Funções e seus tipos:
